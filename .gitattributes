@@ -1,0 +1,13 @@
+# Language detection rules
+# Text file normalization
+*.jpg binary
+src/*.ts linguist-detectable
+*.svg text
+*.map linguist-generated
+*.png binary  
+src/**/*.tsx linguist-detectable
+*.htm linguist-vendored
+*.woff binary
+dist/* linguist-vendored  
+
+# eof 35c052f5
